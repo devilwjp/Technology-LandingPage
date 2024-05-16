@@ -52,39 +52,40 @@ function NavBar(props) {
   const menuItems = [
     {
       link: "/",
-      name: "Home",
+      name: "首页",
       icon: <HomeIcon className="text-white" />
     },
-    {
-      link: "/blog",
-      name: "Blog",
-      icon: <BookIcon className="text-white" />
-    },
-    {
-      name: "Register",
-      onClick: openRegisterDialog,
-      icon: <HowToRegIcon className="text-white" />
-    },
-    {
-      name: "Login",
-      onClick: openLoginDialog,
-      icon: <LockOpenIcon className="text-white" />
-    }
+    // {
+    //   link: "/blog",
+    //   name: "Blog",
+    //   icon: <BookIcon className="text-white" />
+    // },
+    // {
+    //   name: "Register",
+    //   onClick: openRegisterDialog,
+    //   icon: <HowToRegIcon className="text-white" />
+    // },
+    // {
+    //   name: "Login",
+    //   onClick: openLoginDialog,
+    //   icon: <LockOpenIcon className="text-white" />
+    // }
   ];
-  
+
   return (
     <div className={classes.root}>
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
           <div>
-            <Typography
-              variant="h4"
-              className={classes.brandText}
-              display="inline"
-              color="secondary"
-            >
-              LandingPage Template
-            </Typography>
+            {/*<Typography*/}
+            {/*  variant="h4"*/}
+            {/*  className={classes.brandText}*/}
+            {/*  display="inline"*/}
+            {/*  color="secondary"*/}
+            {/*>*/}
+            {/*  LandingPage Template*/}
+            {/*</Typography>*/}
+            <img src={`${process.env.PUBLIC_URL}/images/logo.png`} style={{height: `3rem`, border: `2px`, verticalAlign: `middle`}}/>
           </div>
           <div>
             <Hidden mdUp>

@@ -128,10 +128,9 @@ function HeadSection(props) {
                     >
                       <Box mb={4}>
                         <Typography
-                          variant={isWidthUp("lg", width) ? "h3" : "h4"}
+                          variant={isWidthUp("lg", width) ? "h4" : "h4"}
                         >
-                          Free Template for building a WebPage using
-                          Material-UI
+                          基于行业属性与业务需求，围绕用户体验的提升与数字化连接的建立，打造一站式解决方案。
                         </Typography>
                       </Box>
                       <div>
@@ -140,8 +139,7 @@ function HeadSection(props) {
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
                           >
-                            Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt
+                            电商、数字营销、效果优化、企业站点、微信生态的应用、数据可视化等方案和系统的落地
                           </Typography>
                         </Box>
                         <Button
@@ -152,7 +150,7 @@ function HeadSection(props) {
                           classes={{ label: classes.extraLargeButtonLabel }}
                           href="https://github.com/wonderfullandingpage/Technology-LandingPage"
                         >
-                          Download from GitHub
+                          联系我们
                         </Button>
                       </div>
                     </Box>
@@ -172,7 +170,7 @@ function HeadSection(props) {
           </Box>
         </div>
       </div>
-  
+
     </Fragment>
   );
 }
